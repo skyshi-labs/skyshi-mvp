@@ -1,5 +1,5 @@
 # skyshi-mvp
-skyshi-mvp aims to help create an Android project using Model-View-Controller(MVP) pattern.
+skyshi-mvp aims to help create an Android project using Model-View-Presenter(MVP) pattern.
 
 [![](https://jitpack.io/v/skyshi-labs/skyshi-mvp.svg)](https://jitpack.io/#skyshi-labs/skyshi-mvp)
 
