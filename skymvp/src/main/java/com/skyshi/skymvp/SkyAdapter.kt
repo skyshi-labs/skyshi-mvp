@@ -16,7 +16,7 @@ abstract class SkyAdapter<T, Holder : SkyViewHolder<T>> : RecyclerView.Adapter<H
 
     var data: MutableList<T> = ArrayList()
 
-    abstract override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): Holder
+    abstract override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder
     abstract fun getItemResourceLayout(viewType: Int): Int
     abstract fun getItemViewTypeCustomMessage(data: T, position: Int): Int
 
